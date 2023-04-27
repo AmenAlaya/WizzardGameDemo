@@ -11,7 +11,6 @@ public class UIManager : MonoBehaviour
         if (StarterAssetsInputs.Instance.inventory)
         {
             openInventory = true;
-            Debug.Log("Test");
             StarterAssetsInputs.Instance.cursorInputForLook = false;
             StarterAssetsInputs.Instance.cursorLocked = false;
             Cursor.visible = true;

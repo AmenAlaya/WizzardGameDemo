@@ -21,10 +21,6 @@ public class InventoryManager : MonoBehaviour
     {
         _itemSOList.Add(itemSO);
 
-        foreach (var item in _itemSOList)
-        {
-            Debug.Log(item.itemName);
-        }
     }
 
     public void GenerateItems()
